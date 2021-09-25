@@ -1,0 +1,116 @@
+/* my fonts */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif; */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #BAD9F8;
+  font-family: 'Loto', sans-serif;
+
+}
+
+h1{
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #008DDE;
+  line-height: 1.2;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+.logo{
+  color: #008DDE;
+  font-size: 2rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #008DDE;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #71797E;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #008DDE;
+}
+
+
+
+
+::placeholder{
+  color: #E5E4E2;
+}
+
+
+
+.wrapper{
+  position: relative;
+}
+
+.container{
+  margin:0 auto;
+}
+/* //form styling */
+
+label{
+  margin-bottom: 5px;
+  color: #008DDE;
+}
+
+input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.signUpForm{
+  display: flex;
+  flex-direction: column;
+  padding: 25% 12%;
+}
+
+.form{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.shadow{
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+  width: 60%;
+  background-color: #008DDE;
+  border: none;
+}
+
+.btn-dark:hover{
+  background-color: #008DDE;
+}
+
+
+@media (max-width: 989) {
+
+  .form{
+    width: 100%;
+  }
+}
